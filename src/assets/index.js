@@ -20,7 +20,13 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import blender from "./tech/blender.png";
+import wordpress from "./tech/wordpress.png";
+import adobeai from "./tech/adobeai.png";
+import adobeps from "./tech/adobeps.png";
+import java from "./tech/java.png";
 import threejs from "./tech/threejs.svg";
+import php from "./tech/php.svg";
 
 import designbyhisyam from "./company/designbyhisyam.png";
 import smartfren from "./company/smartfren.png";
@@ -59,6 +65,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  php,
+  java,
+  blender,
+  adobeai,
+  adobeps,
+  wordpress,
   designbyhisyam,
   smartfren,
   digitalkotak,

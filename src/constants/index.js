@@ -10,7 +10,13 @@ import {
   tailwind,
   nodejs,
   git,
+  php,
+  java,
   figma,
+  blender,
+  adobeai,
+  adobeps,
+  wordpress,
   smartfren,
   digitalkotak,
   designbyhisyam,
@@ -101,6 +107,30 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Blender",
+    icon: blender,
+  },
+  {
+    name: "Adobe Illustrator",
+    icon: adobeai,
+  },
+  {
+    name: "Adobe Photoshop",
+    icon: adobeps,
+  },
+  {
+    name: "Wordpress",
+    icon: wordpress,
+  },
 ];
 
 const experiences = [
@@ -109,7 +139,7 @@ const experiences = [
     company_name: "PT Smartfren Telekom Tbk",
     icon: smartfren,
     iconBg: "#FFFFFF",
-    date: "January 2024 - July 2024",
+    date: "January 2024 - Present",
     points: [
       "Create Documentation Tracking Action Plan or Projects",
       "Perform Analysis Security Event and Follow Up Issue",
@@ -143,7 +173,7 @@ const experiences = [
     company_name: "Apple Developer Academy Bina Nusantara International",
     icon: apple,
     iconBg: "#FFFFFF",
-    date: "August 2023",
+    date: "July 2023 - August 2023",
     points: [
       "Develop a Running & Fitness application involves creating features that help users track their runs, monitor their fitness progress, and stay motivated",
       "Design a user interface (UI) involves creating a visually appealing and user friendly layout that aligns with the functionality of the Running & Fitness application",
