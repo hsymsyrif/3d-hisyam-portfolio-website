@@ -25,6 +25,7 @@ import threejs from "./tech/threejs.svg";
 import designbyhisyam from "./company/designbyhisyam.png";
 import smartfren from "./company/smartfren.png";
 import digitalkotak from "./company/digitalkotak.png";
+import apple from "./company/apple.png";
 
 import lvinnamon from "./project/lvinnamon.png";
 import buildit from "./project/buildit.png";
@@ -69,4 +70,5 @@ export {
   bookshelf,
   portfolio,
   scissorpaper,
+  apple,
 };
