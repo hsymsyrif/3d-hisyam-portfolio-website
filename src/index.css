@@ -13,6 +13,15 @@
   color-scheme: dark;
 }
 
+.downloadbtn:hover {
+  background-color: #c44646; /* Change the color to your desired hover color */
+  /* Add any other styles you want for the hover effect */
+}
+.sosmedbtn:hover {
+  background-color: #1e5e9e; /* Change the color to your desired hover color */
+  /* Add any other styles you want for the hover effect */
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

@@ -115,22 +115,6 @@ const technologies = [
     name: "Java",
     icon: java,
   },
-  {
-    name: "Blender",
-    icon: blender,
-  },
-  {
-    name: "Adobe Illustrator",
-    icon: adobeai,
-  },
-  {
-    name: "Adobe Photoshop",
-    icon: adobeps,
-  },
-  {
-    name: "Wordpress",
-    icon: wordpress,
-  },
 ];
 
 const experiences = [

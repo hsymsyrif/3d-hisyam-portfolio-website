@@ -6,6 +6,25 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import "@fortawesome/fontawesome-free/css/all.css";
+
+const DownloadButton = ({ buttonText, fileUrl, fileName }) => {
+  return (
+    <a href={fileUrl} download={fileName} target="_blank">
+      <button className="downloadbtn bg-[#FA7070] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer mr-3">{buttonText}</button>
+    </a>
+  );
+};
+
+const SocialMediaButton = ({ platform, link, iconClass }) => {
+  return (
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <button className="sosmedbtn bg-[#3081D0] py-2 px-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer mr-3">
+        <i className={`icon ${iconClass}`} /> {platform}
+      </button>
+    </a>
+  );
+};
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -27,6 +46,13 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const instagramLink = "https://www.instagram.com/designbyhisyam._/";
+  const linkedinLink = "https://www.linkedin.com/in/hisyamsyarif/";
+  const githubLink = "https://github.com/hsymsyrif";
+
+  const cvFileName = "CV_Muhammad Hisyam Syarif.pdf";
+  const cvFileUrl = "https://drive.google.com/file/d/1m4j0Zp6y6qip1qKNEVJc_gxUHbwzz7qj/view?usp=sharing";
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -38,6 +64,14 @@ const About = () => {
         I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly
         solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+
+      <div>
+        <br />
+        <DownloadButton buttonText="Download CV" fileUrl={cvFileUrl} fileName={cvFileName} />
+        <SocialMediaButton link={instagramLink} iconClass="fab fa-instagram" />
+        <SocialMediaButton link={linkedinLink} iconClass="fab fa-linkedin" />
+        <SocialMediaButton link={githubLink} iconClass="fab fa-github" />
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
